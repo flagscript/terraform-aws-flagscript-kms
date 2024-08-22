@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/flagscript/terraform-aws-flagscript-kms/compare/v1.0.2...v1.0.3) (2024-08-22)
+
+
+### Bug Fixes
+
+* **resolves #9:** Compact source policy documents. ([dc10da5](https://github.com/flagscript/terraform-aws-flagscript-kms/commit/dc10da553fb3b2015d74ff91c2d3b7dcd54193c2)), closes [#9](https://github.com/flagscript/terraform-aws-flagscript-kms/issues/9)
+
 ## [1.0.2](https://github.com/flagscript/terraform-aws-flagscript-kms/compare/v1.0.1...v1.0.2) (2024-08-22)
 
 
