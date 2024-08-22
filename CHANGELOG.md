@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/flagscript/terraform-aws-flagscript-kms/compare/v1.0.1...v1.0.2) (2024-08-22)
+
+
+### Bug Fixes
+
+* **resolves #7:** Fix various references. ([41ad461](https://github.com/flagscript/terraform-aws-flagscript-kms/commit/41ad46113d2fcbac02f05e7fa299dd90d0260824)), closes [#7](https://github.com/flagscript/terraform-aws-flagscript-kms/issues/7)
+
 ## [1.0.1](https://github.com/flagscript/terraform-aws-flagscript-kms/compare/v1.0.0...v1.0.1) (2024-08-22)
 
 
