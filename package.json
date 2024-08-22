@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/flagscript/terraform-aws-flagscript-kms#readme",
   "dependencies": {
-    "husky": "^9.1.4"
+    "husky": "^9.1.5"
   }
 }
