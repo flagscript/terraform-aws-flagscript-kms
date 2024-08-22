@@ -68,9 +68,9 @@ data "aws_iam_policy_document" "ou_key_use_policy_document" {
 }
 
 data "aws_iam_policy_document" "kms_policy_document" {
-  source_policy_documents = [
+  source_policy_documents = compact([
     data.aws_iam_policy_document.base_key_policy_document.json,
     var.allow_organization_access ? data.aws_iam_policy_document.org_key_use_policy_document.json : null,
     length(var.principal_org_paths) > 0 ? data.aws_iam_policy_document.ou_key_use_policy_document.json : null
-  ]
+  ])
 }
