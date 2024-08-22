@@ -34,7 +34,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_allow_organization_access"></a> [allow\_organization\_access](#input\_allow\_organization\_access) | Allow key use to the organizaiton. | `false` | `false` | no |
+| <a name="input_allow_organization_access"></a> [allow\_organization\_access](#input\_allow\_organization\_access) | Allow key use to the organizaiton. | `bool` | `false` | no |
 | <a name="input_deletion_window_in_days"></a> [deletion\_window\_in\_days](#input\_deletion\_window\_in\_days) | The waiting period, specified in number of days. Defaults to 7. | `number` | `7` | no |
 | <a name="input_enable_key_rotation"></a> [enable\_key\_rotation](#input\_enable\_key\_rotation) | Specifies whether key rotation is enabled. Defaults to false. | `bool` | `false` | no |
 | <a name="input_is_multiregion"></a> [is\_multiregion](#input\_is\_multiregion) | Indicates whether the KMS key is a multi-Region key. Defaults to false. | `bool` | `false` | no |
