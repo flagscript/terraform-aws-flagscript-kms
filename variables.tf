@@ -10,7 +10,7 @@ variable "key_name" {
 variable "allow_organization_access" {
   default     = false
   description = "Allow key use to the organizaiton."
-  type        = false
+  type        = bool
 }
 
 variable "deletion_window_in_days" {
